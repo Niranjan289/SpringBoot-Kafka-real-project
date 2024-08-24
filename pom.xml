@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
 		<module>Spring-Boot-Kafka-Producer</module>
+		<module>Spring-Boot-Kafka-Consumer</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

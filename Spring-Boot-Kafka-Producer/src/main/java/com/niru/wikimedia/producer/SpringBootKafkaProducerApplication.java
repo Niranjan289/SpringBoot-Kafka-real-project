@@ -14,6 +14,7 @@ public class SpringBootKafkaProducerApplication implements CommandLineRunner {
 
 	@Autowired
 	private WikimediaChangeProducer wikimediaChangeProducer;
+
 	@Override
 	public void run(String... args) throws Exception {
 		wikimediaChangeProducer.sendMessage();
